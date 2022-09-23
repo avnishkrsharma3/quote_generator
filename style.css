@@ -1,0 +1,93 @@
+body {
+
+    background-image: url("img/library.jpg");
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+
+.main {
+
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container {
+
+
+    width: 500px;
+    height: 500px;
+
+}
+
+h3 {
+    text-align: center;
+    color: yellow;
+}
+#title {
+
+    border: 2px solid yellow;
+    position: relative;
+    width: 80%;
+    height: 40px;
+    margin: auto;
+    padding-bottom: 17px;
+    margin-bottom: 40px;
+    background-color: black;
+
+}
+.card {
+
+    width: 80%;
+    height: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#content {
+
+    height: 100%;
+    width: 100%;
+    background-color: #FFFFF0;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+#quote {
+
+    text-align: center;
+    font-size: 25px;
+    margin: 4px;
+
+}
+#name {
+    margin: 6px;
+}
+
+button {
+    margin: 4px;
+    background-color: black;
+    color: yellow;
+    height: 40px;
+    width: 120px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+}
+
